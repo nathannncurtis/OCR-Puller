@@ -164,8 +164,8 @@ def main():
         sys.exit(1)
 
     prompt_dir = sys.argv[1]
-    search_dirs_2025 = [r'\\ronsin158\ocr_processed\2025', r'\\ronsin232\ocr_processed\2025']
-    search_dirs_all = [r'\\ronsin158\ocr_processed', r'\\ronsin232\ocr_processed']
+    search_dirs_2025 = [r'\\ronsin158\ocr_processed\2025', r'\\192.168.30.208\ocr_processed\2025']
+    search_dirs_all = [r'\\ronsin158\ocr_processed', r'\\192.168.30.208\ocr_processed']
     xray_covers_dir = r'\\nas-prod\Archive\X-RAYS TO UPLOAD'
 
     current_month = datetime.now().strftime("%m-%Y")
